@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "question": "What are the important objects in the current scene? Those objects will be considered for the future reasoning and driving decision.",
+    "answer": "There is a red and green truck to the front left of the ego vehicle, a blue-green truck to the front of the ego vehicle, a silver white commercial vehicle to the back of the ego vehicle, and a person wearing blue clothes riding a bicycle to the front right of the ego vehicle. The IDs of these objects are <c1,CAM_FRONT_LEFT,1086.7,414.2>, <c2,CAM_FRONT,1433.3,397.5>, <c3,CAM_BACK,740.0,610.0>, and <c4,CAM_FRONT_RIGHT,569.2,560.8>."
+  },
+  {
+    "id": 1,
+    "question": "What is the moving status of object <c1,CAM_FRONT_LEFT,1086.7,414.2>?",
+    "answer": "Going ahead."
+  },
+  {
+    "id": 2,
+    "question": "Is <c1,CAM_FRONT_LEFT,1086.7,414.2> a traffic sign or a road barrier?",
+    "answer": "No."
+  },
+  {
+    "id": 3,
+    "question": "What actions could the ego vehicle take based on <c1,CAM_FRONT_LEFT,1086.7,414.2>? Why take this action and what's the probability?",
+    "answer": "The action is to remain stationary. The reason is to follow the traffic rules, which has a high probability."
+  },
+  {
+    "id": 4,
+    "question": "What actions taken by the ego vehicle can lead to a collision with <c2,CAM_FRONT,1433.3,397.5>?",
+    "answer": "Accelerating and going straight."
+  },
+  {
+    "id": 5,
+    "question": "In this scenario, what are safe actions to take for the ego vehicle?",
+    "answer": "Brake suddenly, brake gently to a stop, and slightly offset to the right."
+  },
+  {
+    "id": 6,
+    "question": "Predict the behavior of the ego vehicle.",
+    "answer": "The ego vehicle is going straight. The ego vehicle is not moving."
+  }
+]

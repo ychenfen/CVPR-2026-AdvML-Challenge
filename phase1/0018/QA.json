@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "question": "What are the important objects in the current scene? Those objects will be considered for the future reasoning and driving decision.",
+    "answer": "There is a red car to the back of the ego vehicle, a slow down to the front left of the ego vehicle, and a no parking to the front of the ego vehicle. The IDs of these objects are <c1,CAM_BACK,1163.3,583.3>, <c2,CAM_FRONT_LEFT,1289.4,445.6>, and <c3,CAM_FRONT,473.6,596.7>."
+  },
+  {
+    "id": 1,
+    "question": "What is the moving status of object <c1,CAM_BACK,1163.3,583.3>?",
+    "answer": "Turn left."
+  },
+  {
+    "id": 2,
+    "question": "What object should the ego vehicle notice first when the ego vehicle is getting to the next possible location? What is the state of the object that is first noticed by the ego vehicle and what action should the ego vehicle take? What object should the ego vehicle notice second when the ego vehicle is getting to the next possible location? What is the state of the object perceived by the ego vehicle as second and what action should the ego vehicle take? What object should the ego vehicle notice third? What is the state of the object perceived by the ego vehicle as third and what action should the ego vehicle take?",
+    "answer": "Firstly notice that <c3,CAM_FRONT,473.6,596.7>. The object is a traffic sign, so the ego vehicle should keep going ahead at the same speed. Secondly, notice that <c2,CAM_FRONT_LEFT,1289.4,445.6>. The object is a traffic sign, so the ego vehicle should slow down and go ahead. Thirdly, notice that <c1,CAM_BACK,1163.3,583.3>. The object is turning left, so the ego vehicle should keep going ahead at the same speed."
+  },
+  {
+    "id": 3,
+    "question": "Is <c1,CAM_BACK,1163.3,583.3> a traffic sign or a road barrier?",
+    "answer": "No."
+  },
+  {
+    "id": 4,
+    "question": "What actions could the ego vehicle take based on <c1,CAM_BACK,1163.3,583.3>? Why take this action and what's the probability?",
+    "answer": "The action is to keep going at the same speed. The reason is to avoid a collision, which is high probability."
+  },
+  {
+    "id": 5,
+    "question": "What actions taken by the ego vehicle can lead to a collision with <c1,CAM_BACK,1163.3,583.3>?",
+    "answer": "Brake suddenly."
+  },
+  {
+    "id": 6,
+    "question": "In this scenario, what are safe actions to take for the ego vehicle?",
+    "answer": "Decelerate gradually without braking, change to the right lane, slightly offset to the right, and brake gently to a stop."
+  },
+  {
+    "id": 7,
+    "question": "Predict the behavior of the ego vehicle.",
+    "answer": "The ego vehicle is steering to the left. The ego vehicle is driving with normal speed."
+  }
+]

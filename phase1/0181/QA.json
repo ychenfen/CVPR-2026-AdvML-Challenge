@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "question": "What are the important objects in the current scene? Those objects will be considered for the future reasoning and driving decision.",
+    "answer": "There is a pedestrian crossing sign to the front right of the ego vehicle, a pedestrian crosswalk markings to the front of the ego vehicle, and a direction sign to the front of the ego vehicle. The IDs of these objects are <c1,CAM_FRONT_RIGHT,227.4,393.5>, <c2,CAM_FRONT,1445.9,553.6>, and <c3,CAM_FRONT,985.1,456.6>."
+  },
+  {
+    "id": 1,
+    "question": "What object should the ego vehicle notice first when the ego vehicle is getting to the next possible location? What is the state of the object that is first noticed by the ego vehicle and what action should the ego vehicle take? What object should the ego vehicle notice second when the ego vehicle is getting to the next possible location? What is the state of the object perceived by the ego vehicle as second and what action should the ego vehicle take? What object should the ego vehicle notice third? What is the state of the object perceived by the ego vehicle as third and what action should the ego vehicle take?",
+    "answer": "First, notice <c1,CAM_FRONT_RIGHT,227.4,393.5>, which is a traffic sign, so the ego vehicle should slow down and brake. Second, notice <c2,CAM_FRONT,1445.9,553.6>, which is a zebra crossing, so the ego vehicle should slow down and brake. Finally, notice <c3,CAM_FRONT,985.1,456.6>, which is a road sign, so the ego vehicle should slow down and proceed with caution."
+  },
+  {
+    "id": 2,
+    "question": "Is <c1,CAM_FRONT_RIGHT,227.4,393.5> a traffic sign or a road barrier?",
+    "answer": "Yes."
+  },
+  {
+    "id": 3,
+    "question": "In this scenario, what are safe actions to take for the ego vehicle?",
+    "answer": "Brake gently to a stop, decelerate gradually without braking, back up, or brake suddenly."
+  },
+  {
+    "id": 4,
+    "question": "Predict the behavior of the ego vehicle.",
+    "answer": "The ego vehicle is steering to the right. The ego vehicle is driving fast."
+  }
+]

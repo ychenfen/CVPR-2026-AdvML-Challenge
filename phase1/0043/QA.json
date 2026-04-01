@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "question": "What are the important objects in the current scene? Those objects will be considered for the future reasoning and driving decision.",
+    "answer": "There is a white truck to the back of the ego vehicle, a silver white sedan to the front of the ego vehicle, a black sedan to the front of the ego vehicle, a white sedan to the back of the ego vehicle, a white truck to the back of the ego vehicle, and a white zebra crossing to the front of the ego vehicle. The IDs of these objects are <c1,CAM_BACK,527.5,480.8>, <c2,CAM_FRONT,628.3,537.5>, <c3,CAM_FRONT,926.7,489.2>, <c4,CAM_BACK,975.8,495.8>, <c5,CAM_BACK,1137.5,467.5>, and <c6,CAM_FRONT,738.7,709.7>."
+  },
+  {
+    "id": 1,
+    "question": "What is the moving status of object <c2,CAM_FRONT,628.3,537.5>?",
+    "answer": "Going ahead."
+  },
+  {
+    "id": 2,
+    "question": "Is <c1,CAM_BACK,527.5,480.8> a traffic sign or a road barrier?",
+    "answer": "No."
+  },
+  {
+    "id": 3,
+    "question": "What actions could the ego vehicle take based on <c1,CAM_BACK,527.5,480.8>? Why take this action and what's the probability?",
+    "answer": "The action is to keep going at the same speed. The reason is that there is no safety issue. The probability of taking this action is high."
+  },
+  {
+    "id": 4,
+    "question": "What actions taken by the ego vehicle can lead to a collision with <c2,CAM_FRONT,628.3,537.5>?",
+    "answer": "Moderate left turn."
+  },
+  {
+    "id": 5,
+    "question": "In this scenario, what are safe actions to take for the ego vehicle?",
+    "answer": "Keep going at the same speed, slightly offset to the right."
+  },
+  {
+    "id": 6,
+    "question": "Predict the behavior of the ego vehicle.",
+    "answer": "The ego vehicle is slightly steering to the right. The ego vehicle is driving fast."
+  }
+]
